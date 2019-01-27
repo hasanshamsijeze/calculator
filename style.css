@@ -1,0 +1,117 @@
+﻿/*-------------- RESET STYLE ------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-weight: bold;
+}
+
+input, select, option, textarea {
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*-------------- RESET STYLE ------------------ */
+
+body {
+    background-color: #2298DA;
+}
+
+div.main {
+    width: 355px;
+    margin: 50px auto;
+    overflow: hidden;
+    height: 485px;
+}
+#clear{
+    position:relative;
+}
+
+div.input {
+    width: 100%;
+}
+
+    div.input h1 {
+        margin-right:10px;
+        text-align:right;
+        font-size: 65px;
+        color: #fff;
+        line-height: 77px;
+    }
+
+    div.input div {
+        text-align: right;
+        width: 340px;
+        height: 60px;
+        border-radius: 10px;
+        background-color: #83B1C2;
+        border: none;
+        font-size: 30px;
+        padding-right: 10px;
+        padding-top: 15px;
+    }
+
+div.input_in {
+    margin-top: 15px;
+    width: 372px;
+}
+
+    div.input_in button {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-right: 13px;
+        width: 75px;
+        height: 50px;
+        background-color: #546EA6;
+        font-size: 24px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 5px #5877bb;
+    }
+
+    div.input_in .operator {
+        background-color: #7c8cb0;
+        box-shadow: 0px 5px #98a5c3;
+    }
+
+    div.input_in button:hover {
+        color: #fff;
+        background-color: #735ebb;
+        box-shadow: none;
+    }
+
+    div.input_in .operator:hover {
+        color: #fff;
+        background-color: #8599c6;
+    }
+
+    div .input_in .equal {
+        width: 258px;
+        text-align: center;
+        height: 50px;
+        background-color: #D86441;
+        font-size: 24px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 5px #ed714b;
+    }
+
+        div.input_in .equal:hover {
+            background-color: #e28c72;
+            box-shadow: none;
+        }
